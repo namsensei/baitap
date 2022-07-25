@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+</head>
+<body>
+<p>bangcuuchuong</p>
+<p id="bcc"></p>
+
+
+<script>
+  let bcc= "<table border='1' width='100' cellspacing='0' cellpadding='4'>";
+
+  for (i = 1; i <= 10; i++) {
+    bcc =bcc + "<tr>";
+    for (j = 1; j <= 10; j++) {
+      bcc = bcc + "<td>" + j + "x" + i + "=" + i * j + "</td>";
+    }
+    bcc = bcc + "</tr>";
+
+  }
+  bcc +=  "</table>";
+  document.getElementById("bcc").innerHTML=bcc;
+</script>
+
+
+</body>
+</html>
+
+</body>
+</html>
